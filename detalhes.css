@@ -1,0 +1,77 @@
+*{
+    background-color: black;
+    color: white;
+}
+#detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+h1{
+    margin-bottom: -20px;
+}
+
+img{
+    width: 250px;
+}
+
+.informacoes{
+    text-align: left;
+}
+
+#div-informacoes{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#voltar{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid black 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.botaoAnimado {
+    transform: scale(1.2);
+}
+
+#div-voltar{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#geral {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-top: 40px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo_detalhes {
+    margin-bottom: 10px;
+}
+
+@Nome {
+    font-family: 'Rubik', sans-serif;
+}
